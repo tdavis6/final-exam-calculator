@@ -9,4 +9,4 @@ finalScore = round(finalScore,2)
 finalScore = str(finalScore)
 desiredScore = str(desiredScore)
 
-print("You need to acheive a " + finalScore + "% on the final to get a " + desiredScore + "% in the class.")
+print("You need to achieve a " + finalScore + "% on the final to get a " + desiredScore + "% in the class.")
