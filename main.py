@@ -4,6 +4,8 @@ currentScore = float(input("What is your current grade in the class?\n"))
 
 finalScore = (100*desiredScore - ((100-finalWeighting)*(currentScore)))/finalWeighting
 
+finalScore = round(finalScore,2)
+
 finalScore = str(finalScore)
 desiredScore = str(desiredScore)
 
